@@ -9,16 +9,18 @@ Air Quality Sensor based on ESP32 and BME680
 - Adafruit Unified Sensor, version 1.1.9
 - Arduinojson, version 6.21.2
 - AsyncMQTT_ESP32, version 1.10.0
-- AsyncTCP, version 1.1.4
-- AsyncTCP_SSL, version 1.3.1
+- AsyncTCP, version 1.1.4, see note 1
+- AsyncTCP_SSL, version 1.3.1, see note 1
 - ESP8266 and ESP32 OLEDdriver for SSD1306 displays, version 4.4.0
 - PubSubClient, version 2.8
 - Time, version 1.6.1
-- WebServer_ESP32_ENC, version 1.5.3
-- WebServer_ESP32_SC_ENC, version 1.2.1
-- WebServer_ESP32_SC_W5500, version 1.2.1
-- WebServer_ESP32_SC_W6100, version 1.2.1
-- WebServer_ESP32_W5500, version 1.5.3
-- WebServer_ESP32_W6100, version 1.5.3
-- WebServer_ESP32_ETH01, version 1.5.1
+- WebServer_ESP32_ENC, version 1.5.3, see note 1
+- WebServer_ESP32_SC_ENC, version 1.2.1, see note 1
+- WebServer_ESP32_SC_W5500, version 1.2.1, see note 1
+- WebServer_ESP32_SC_W6100, version 1.2.1, see note 1
+- WebServer_ESP32_W5500, version 1.5.3, see note 1
+- WebServer_ESP32_W6100, version 1.5.3, see note 1
+- WebServer_ESP32_ETH01, version 1.5.1, see note 1
 - WifiManager, version 2.0.15-rc.1
+
+note 1: Installed automatically when installing AsyncMQTT_ESP32 library via the Arduino Library manager.
