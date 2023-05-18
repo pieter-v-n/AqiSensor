@@ -9,7 +9,7 @@ At first start-up, the module will act like a WiFi Access Point. Search for the 
 - Publish topic to publish the measurements
 - Subscribe topic to obtain the time of day
 
-When WiFi nork establishement is successful, these paramwill be stored on the internal flash memory of the ESP32. When the module is rebooted, these parameters will be retrieved. When the WiFi network can be reached, the unit will operate. If not, you need to configure the paramaters again.
+When WiFi network establishement is successful, these parameters will be stored on the internal flash memory of the ESP32. When the module is rebooted, these parameters will be retrieved. When the WiFi network can be reached, the unit will operate. If not, you need to configure the paramaters again.
 
 ## Libraries used in this project:
 - Adafruit BME680 Library, version 2.0.2
