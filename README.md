@@ -6,7 +6,7 @@ Air Quality Sensor based on ESP32-WROOM-32 with built-in SSD1306 OLED display an
 - volatile organic compounds
 - CO2 concentration
 - particulate matter
-- 
+
 It shows the time, date, measured temperature, pressure, humidity, CO2 and calculated air quality index on the display. It also sends this data every minute via MQTT over WiFi to an home automation platform.
 ## Usage
 At first start-up, the module will act like a WiFi Access Point. Search for the AQIs-sensor SSID and connect your device (e.g. smartphone) to it. It will present you with a configuration menu. It will ask for:
