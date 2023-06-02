@@ -1,5 +1,12 @@
 # AqiSensor
-Air Quality Sensor based on ESP32-WROOM-32 with built-in SSD1306 OLED display and Li-ion battery, complemented with a BME680 sensor to measure temperature, humidity, barometric pressure and volatile organic compounds. It shows the time, date, measured temperature, pressure, humidity and calculated air quality index on the display. It also sends this data every minute via MQTT over WiFi to an home automation platform.
+Air Quality Sensor based on ESP32-WROOM-32 with built-in SSD1306 OLED display and Li-ion battery, complemented with a Bosch BME680, AirSense S8 and Sensirion SPS30 sensors to measure:
+- temperature
+- humidity
+- barometric pressure
+- volatile organic compounds
+- CO2 concentration
+- particulate matter
+It shows the time, date, measured temperature, pressure, humidity, CO2 and calculated air quality index on the display. It also sends this data every minute via MQTT over WiFi to an home automation platform.
 ## Usage
 At first start-up, the module will act like a WiFi Access Point. Search for the AQIs-sensor SSID and connect your device (e.g. smartphone) to it. It will present you with a configuration menu. It will ask for:
 - WiFi SSID
@@ -32,5 +39,6 @@ When WiFi network establishement is successful, these parameters will be stored 
 - WebServer_ESP32_W6100, version 1.5.3, see note 1
 - WebServer_ESP32_ETH01, version 1.5.1, see note 1
 - WifiManager, version 2.0.15-rc.1
+- Sensirion-SPS, version 1.1.0
 
 note 1: Installed automatically when installing AsyncMQTT_ESP32 library via the Arduino Library manager.
