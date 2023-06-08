@@ -45,10 +45,10 @@ When WiFi network establishement is successful, these parameters will be stored 
 note 1: Installed automatically when installing AsyncMQTT_ESP32 library via the Arduino Library manager.
 
 ## Hardware setup
-The sensor is built around the ESP32 based module ESP32-WROOM with OLED display and LiPo battery. Added are the sensors:
-- Bosch BME680 on a module that include level shifters
-- SenseAir S8
-- Sensirion SPS30
+The sensor is built around the ESP32 based module ESP32-WROOM with OLED display (I2C address: 0x3C) and LiPo battery. Added are the sensors:
+- Bosch BME680 on a module that include level shifters (I2C address: 0x77)
+- SenseAir S8 (Modbus over UART)
+- Sensirion SPS30 (I2C address: 0x69)
 - LiPo to USB Boost converter to provide 5V
 
 The Power on/off switch on the ESP32 module is replaced by a double-pole double-throw switch that not obnly switches the ESP32 module butr also switches the 4.2V from the battery to the boost converter module.
