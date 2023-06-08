@@ -39,7 +39,7 @@ When WiFi network establishement is successful, these parameters will be stored 
 - WebServer_ESP32_W5500, version 1.5.3, see note 1
 - WebServer_ESP32_W6100, version 1.5.3, see note 1
 - WebServer_ESP32_ETH01, version 1.5.1, see note 1
-- WifiManager, version 2.0.15-rc.1
+- WifiManager, version 2.0.16-rc.1
 - Sensirion-SPS, version 1.1.0
 
 note 1: Installed automatically when installing AsyncMQTT_ESP32 library via the Arduino Library manager.
